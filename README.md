@@ -1,12 +1,12 @@
 # YOLO11n Training and Deployment for Grove Vision AI V2
 
 This repository contains two Google Colab notebooks:
-1. for training a YOLO11n model
-2. converting it for deployment on the Himax WiseEye2 (WE2) chip, specifically for the Grove Vision AI V2 module.
+1. Training a YOLO11n model that is suitable for the Grove Vision AI V2.
+2. Vonverting the custom YOLO11n model for deployment on the Himax WiseEye2 (WE2) chip, specifically for the Grove Vision AI V2 module.
 
 ## 1. YOLO11n Training on Google Colab
 
-A notebook to train a Ultralytics YOLO11n object detection model with a custom dataset on Google Colab. It integrates with Weights & Biases for experiment tracking (optional).
+A notebook to train a Ultralytics YOLO11n object detection model with a custom dataset on Google Colab. 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OAsfMPoQl0vLXD8X9PxToWIX_ZnLuEID?usp=sharing)
 ### 1.1. Setup and Dataset Preparation
@@ -90,3 +90,11 @@ Before running the conversion, carefully review and adjust these parameters in t
 9.  **Install Ethos-U VELA and Download Config**: Installs `ethos-u-vela` and downloads the `himax_vela.ini` configuration file.
 10. **VELA Compilation**: The quantized TFLite model is compiled using the VELA compiler with specific accelerator and system configurations, generating the deployable model.
 11. **Zip and Download Results**: The VELA compiled model directory is zipped and downloaded.
+
+## Object detection
+
+How to make the image file and flash it to the Grove Vision AI V@ on macOS, windows or linux can be found in [How to build yolo11n object detection scenario_app and run on WE2?](https://github.com/HimaxWiseEyePlus/Seeed_Grove_Vision_AI_Module_V2/tree/main/EPII_CM55M_APP_S/app/scenario_app/tflm_yolo11_od#how-to-build-yolo11n-object-detection-scenario_app-and-run-on-we2)
+ 
+
+## References
+More information can be found in this github repository [YOLO11n on WE2](https://github.com/HimaxWiseEyePlus/YOLO11_on_WE2) 
