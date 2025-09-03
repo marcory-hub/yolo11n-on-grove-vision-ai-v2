@@ -93,7 +93,10 @@ Before running the conversion, carefully review and adjust these parameters in t
 
 ## Object detection
 
-How to make the image file and flash it to the Grove Vision AI V@ on macOS, windows or linux can be found in [How to build yolo11n object detection scenario_app and run on WE2?](https://github.com/HimaxWiseEyePlus/Seeed_Grove_Vision_AI_Module_V2/tree/main/EPII_CM55M_APP_S/app/scenario_app/tflm_yolo11_od#how-to-build-yolo11n-object-detection-scenario_app-and-run-on-we2)
+How to make the image file and flash it to the Grove Vision AI V2 on macOS, windows or linux can be found in [How to build yolo11n object detection scenario_app and run on WE2?](https://github.com/HimaxWiseEyePlus/Seeed_Grove_Vision_AI_Module_V2/tree/main/EPII_CM55M_APP_S/app/scenario_app/tflm_yolo11_od#how-to-build-yolo11n-object-detection-scenario_app-and-run-on-we2)
+
+### Himax AI web toolkit for custom yolo11n model testing
+If you use the [Himax AI web toolkit](https://github.com/HimaxWiseEyePlus/Seeed_Grove_Vision_AI_Module_V2/releases/download/v1.1/Himax_AI_web_toolkit.zip) you may find that your custom yolo11n model detects the coco classes (person, bicycle, car, etc). This is because the classes are in the code. You find the list of class names in Himax_AI_web_toolkit/assets/index-legacy.51f14f00.js. Search for person in this file and replace them by the classes you trained your model on.
  
 
 ## References
