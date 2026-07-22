@@ -1,6 +1,6 @@
 # YOLO11n Training and Deployment for Grove Vision AI V2
 
-Note: Active development has relocated to aggerritsen/VespaSmartTrap-BASE. This repository is kept in archive status to maintain Git submodule updates from external providers if needed. Feel free to reference the materials below, but be aware that dependencies or Colab workflows may require updates.
+> Note: Active development has relocated to aggerritsen/VespaSmartTrap-BASE. This repository is kept in archive status to maintain Git submodule updates from external providers if needed. Feel free to reference the materials below, but be aware that dependencies or Colab workflows may require updates.
 
 This repository contains two Google Colab notebooks, as well as sections for troubleshooting and references:
 - [1. YOLO11n Training on Google Colab](#1-yolo11n-training-on-google-colab)
